@@ -33,12 +33,9 @@ import classes from './Counter.module.css';
 // export default Counter;
 // Example in Functional Component End
 
+
+
 // Example in Class Component Start
-
-
-
-
-// Example in Class Component End
 
 class Counter extends Component {
 
@@ -81,3 +78,4 @@ const mapDispatchToProps = dispatch => {
 } 
 
 export default connect(mapStateToProps,mapDispatchToProps)(Counter);
+// Example in Class Component End
